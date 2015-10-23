@@ -2,7 +2,7 @@
     "family": "flask-signup",
     "containerDefinitions": [
         {
-            "image": "ylim92/flask-signup:v_%BUILD_NUMBER%",
+            "image": "ylim92/py-flask-signup-docker:v_%BUILD_NUMBER%",
             "name": "flask-signup",
             "cpu": 10,
             "memory": 256,
